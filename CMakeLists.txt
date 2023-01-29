@@ -17,3 +17,5 @@ add_library(tasteful_squirrel ${HEADER_FILES} ${SRC_FILES})
 target_include_directories(tasteful_squirrel PUBLIC include)
 set_property(TARGET tasteful_squirrel PROPERTY CXX_STANDARD 23)
 
+add_subdirectory(tests)
+
